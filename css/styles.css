@@ -307,6 +307,7 @@ body {
 .exemple-img {
     display: block;
 }
+/* задаю маржени для тексту під картинкою */
 .example-legend {
     margin: 20px 24px;
 }
