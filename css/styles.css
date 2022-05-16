@@ -314,6 +314,7 @@ background-color: var(--bgc-button-color);
     font-size: 16px;
     line-height: 1.88;
 }
+/*  не пушаться зміни, якась містика */
 .exemple-img {
     display: block;
     
