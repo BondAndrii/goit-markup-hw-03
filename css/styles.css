@@ -318,7 +318,7 @@ background-color: var(--bgc-button-color);
     display: block;
     
 }
-/* задаю маржени для тексту під картинкою */
+/* обгортаю текст під картинкою */
 .example-legend {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
