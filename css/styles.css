@@ -297,11 +297,12 @@ background-color: var(--bgc-button-color);
     border-bottom: 1px solid #EEEEEE
 }*/
 .example-li { 
-    
+    display: flex;
+    flex-direction: column;
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE;
+    
 }
 .example-li:nth-child(3n){ 
     margin-right: 0;
@@ -315,10 +316,12 @@ background-color: var(--bgc-button-color);
 }
 .exemple-img {
     display: block;
+    
 }
 /* задаю маржени для тексту під картинкою */
 .example-legend {
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 /* задаю колір та шрифт логотипу в футері */
